@@ -1,0 +1,27 @@
+html, body {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    min-height: 60vh;
+}
+
+.container section {
+    flex-grow: 1;
+}
+
+output {
+    font-family: monospace;
+    max-width: 50vw;
+    white-space: pre-wrap;
+}
+
+textarea {
+    width: 50vw;
+    max-width: 50vw;
+    min-height: 60vh;
+    box-sizing: border-box;
+}
